@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+h1 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.botones {
+    display: flex;
+    gap: 20px;
+}
+
+.boton1,.boton2 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+}
+
+.boton1{
+    background-color: mediumpurple;
+}
+
+.boton1:hover {
+    background-color: purple;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.boton2 {
+    background-color: limegreen;
+}
+.boton2:hover {
+    background-color: green;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: dimgray;
+}
+
+input[type="number"], input[type="text"],input[type="password"] {
+    margin-bottom: 20px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.btn-azul {
+    width: 100px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-azul:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.detalle {
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
